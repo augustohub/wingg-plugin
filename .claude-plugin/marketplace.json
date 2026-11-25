@@ -1,0 +1,14 @@
+{
+  "name": "wingg",
+  "description": "The Claude Code plugin for the Wingg macOS app.",
+  "owner": {
+    "name": "Wingg"
+  },
+  "plugins": [
+    {
+      "name": "wingg",
+      "source": "./plugin",
+      "description": "Hooks for the Wingg macOS app: its Agents tile shows which Claude Code sessions need you."
+    }
+  ]
+}

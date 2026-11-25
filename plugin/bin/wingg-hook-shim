@@ -1,0 +1,7 @@
+#!/bin/sh
+# Runs the Wingg helper that the app links on launch; does nothing when Wingg is not installed.
+HOOK="$HOME/Library/Application Support/Wingg/bin/wingg-hook"
+if [ -x "$HOOK" ]; then
+  exec "$HOOK"
+fi
+exit 0
