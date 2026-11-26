@@ -1,6 +1,6 @@
 {
   "name": "wingg",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Sends Claude Code session events to the Wingg macOS app, so its Agents tile shows the sessions that need you and lets you answer from there.",
   "author": {
     "name": "Wingg"
